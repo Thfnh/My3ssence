@@ -1,0 +1,26 @@
+- nmap
+- nikto
+- rustscan 
+
+- sqlmap
+
+- BurpSuite
+
+
+- ffuf
+- subfinder
+- gobuster
+
+- curl
+
+- Metasploit
+
+- git-dumper
+- wget
+- git cola 
+
+- AWS Command (AWS CLI)
+
+- redis-tools
+
+- MySQL

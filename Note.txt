@@ -1,0 +1,21 @@
+php-reverse-shell (upload function).
+
+react2shell (CVE-2025-55182).
+
+bash shell.
+
+MariaDB default user: root.
+
+check /.git; /robots.txt; /sitemap.xml.
+
+HTTP1.1-> check HTTP Request Smuggling.
+
+Breaking Unauthorized by 'Change Request Method' in burp (check by changing HTTP method request. e.g.: POST-> POSTX, TRACE, ...).
+
+Bypass two-factor authentication (2FA) by dropping the 2FA check request in Burp Intercept.
+
+backlash (\) in JavaScript can escape single or double quote (', ") when testing for XSS bypass.
+
+Use hyphens (-) as arithmetic operators to chain payloads and break out of JavaScript string contexts without triggering syntax errors. 	
+
+- eg for 9. and 10. : var searchTerms = '\\' - alert()//'
