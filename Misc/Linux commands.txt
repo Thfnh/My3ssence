@@ -1,0 +1,35 @@
+head 
+
+cat 
+
+grep 
+
+eg: cat firewall.log | grep "BLOCK" | head
+
+cut 
+
+sort 
+
+uniq 
+
+eg: cat firewall.log | grep "BLOCK" | cut -d' ' -f5 | cut -d: -f1 | sort -nr | uniq -c
+
+cat
+less
+head
+tail
+grep
+find
+awk
+sed
+cut
+sort
+uniq
+
+grep -rn --include="*.py" -E "os\.system|subprocess|eval\(|exec\(|pickle\.loads|render_template_string|cursor\.execute|send_file|open\(" .
+
+
+chmod +x loop.sh
+./loop.sh
+
+seq 4000 5000 > danhsach.txt
