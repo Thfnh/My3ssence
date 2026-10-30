@@ -17,4 +17,5 @@
 11. Template literal (Sign: `... 'backtick' ...`): You can perform calculations or call functions directly inside the ${...} syntax. 
 12. An input accepts JSON; try testing it with XML.
 13. Appending a tilde ~ at the end of a PHP file name is a common technique attackers use to try to access backup or temporary files created by text editors or version control systems
-
+14. Try changing http request to bypass csrf token validation.
+15. HTTP Header Injection (search term: /?search=) !??!?

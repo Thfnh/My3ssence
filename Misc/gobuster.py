@@ -1,0 +1,1 @@
+gobuster dir -u http://10.49.145.112:5000 -w /home/hack/tools/SecLists/Discovery/Web-Content/common.txt -x php, txt, py, js, html
